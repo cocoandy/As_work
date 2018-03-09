@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.wulias.customdialog.customdialog.CommomDialog;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;

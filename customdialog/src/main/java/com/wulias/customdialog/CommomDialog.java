@@ -1,4 +1,4 @@
-package com.wulias.customdialog.customdialog;
+package com.wulias.customdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
-
-import com.wulias.customdialog.R;
 
 /**
  * Created by Administrator on 2018/3/9.
@@ -37,7 +35,7 @@ public class CommomDialog extends Dialog implements View.OnClickListener{
         this.content = content;
     }
 
-    public CommomDialog(Context context,String content, OnCloseListener listener) {
+    public CommomDialog(Context context, String content, OnCloseListener listener) {
         super(context, R.style.dialog);
         this.mContext = context;
         this.content = content;
