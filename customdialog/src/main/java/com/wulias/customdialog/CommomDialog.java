@@ -95,18 +95,18 @@ public class CommomDialog extends Dialog implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.cancel:
-                if(listener != null){
-                    listener.onClick(this, false);
-                }
-                this.dismiss();
-                break;
-            case R.id.submit:
-                if(listener != null){
-                    listener.onClick(this, true);
-                }
-                break;
+        int i = v.getId();
+        if (i == R.id.cancel) {
+            if (listener != null) {
+                listener.onClick(this, false);
+            }
+            this.dismiss();
+
+        } else if (i == R.id.submit) {
+            if (listener != null) {
+                listener.onClick(this, true);
+            }
+
         }
     }
 

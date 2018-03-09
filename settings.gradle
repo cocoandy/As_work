@@ -1,1 +1,1 @@
-include ':app', ':customdialog'
+include ':customdialog'
