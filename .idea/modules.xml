@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/As_work.iml" filepath="$PROJECT_DIR$/As_work.iml" />
       <module fileurl="file://$PROJECT_DIR$/customdialog/customdialog.iml" filepath="$PROJECT_DIR$/customdialog/customdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmodule/testmodule.iml" filepath="$PROJECT_DIR$/testmodule/testmodule.iml" />
     </modules>
   </component>
 </project>

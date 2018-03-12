@@ -1,4 +1,4 @@
-package com.wulias.customdialog;
+package com.wulias.customdialog.dialogui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
+
+import com.wulias.customdialog.R;
+
+import interfaces.OnCloseListener;
 
 /**
  * Created by Administrator on 2018/3/9.
@@ -108,9 +112,5 @@ public class CommomDialog extends Dialog implements View.OnClickListener{
             }
 
         }
-    }
-
-    public interface OnCloseListener{
-        void onClick(Dialog dialog, boolean confirm);
     }
 }
